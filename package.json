@@ -20,7 +20,8 @@
     "serve": "vue-cli-service serve",
     "build": "rimraf dist && rollup -c",
     "build:demo": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "prepare": "npm run build && cp -r ./src/lib/assets ./dist"
   },
   "dependencies": {
     "vue-fragment": "^1.5.1"
