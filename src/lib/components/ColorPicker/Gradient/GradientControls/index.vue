@@ -20,11 +20,12 @@
                     <div class="gradient-degree-pointer" />
                 </div>
             </div>
-            <div class="gradient-degree-value">
+            <!-- This component was hidden because it is not needed yet -->
+            <!-- <div class="gradient-degree-value">
                 <p>
                     {{degree}}&#176;
                 </p>
-            </div>
+            </div> -->
         </div>
     </div>
 </template>
